@@ -1,0 +1,38 @@
+
+body{
+    background-color: beige;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;   
+}
+.heroTitle{
+    color: white;
+    padding-top: 50px;
+    font-size: 40px;
+}
+.heroSubtitle{
+    font-size: 40px;
+    color: lightgrey;
+}
+.heroBG{
+    background-image: url(images/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    border-bottom: 15px solid #3d3d3d;
+    height: 80vh;
+}
+.sectionOne{
+    padding-top: 50px;
+}
+.boldQuote{
+    font-weight: bold;
+    font-size: 24px;
+
+}
+@media (min-width: 1200px){
+    body{
+        
+    }
+    .heroTitle{
+        font-size: 90px;
+    }
+}
