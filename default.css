@@ -4,13 +4,26 @@ body{
     font-size: 20px;
     font-family: 'Josefin Sans', sans-serif;   
 }
+h1{
+    text-align: center;
+    font-size: 48px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-weight: bold;
+}
+h2{
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    padding: 50px 0px 50px 0;
+}
 .heroTitle{
     color: white;
     padding-top: 50px;
     font-size: 40px;
 }
 .heroSubtitle{
-    font-size: 40px;
+    font-size: 20px;
     color: lightgrey;
 }
 .heroBG{
@@ -21,18 +34,56 @@ body{
     height: 80vh;
 }
 .sectionOne{
-    padding-top: 50px;
+    
+}
+.sectionTwo{
+    
+}
+.sectionThree{
+    padding-bottom: 75px;
+}
+.sectionFour{
+    color: white;
 }
 .boldQuote{
     font-weight: bold;
     font-size: 24px;
+}
+.newSection2{
+    border-top: 15px solid brown;
+    background-color: black;
+    padding-top: 50px;
+}
+.image1{
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 20px;
 
+}
+.image2{
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 20px;
 }
 @media (min-width: 1200px){
     body{
-        
+        font-size: 24px;
+    }
+    h1{
+        font-size: 80px;
+    }
+    h2{
+        font-size: 60px;  
+    }
+    .boldQuote{
+        padding-top: 20px;
+        font-size: 30px;
     }
     .heroTitle{
         font-size: 90px;
     }
+    .heroSubtitle{
+        font-size: 40px;
+    }
+    
 }
