@@ -62,7 +62,7 @@ h3{
 }
 @media (min-width: 1200px){
     body{
-        font-size: 24px;
+        font-size: 22px;
     }
     h1{
         font-size: 80px;
@@ -72,15 +72,12 @@ h3{
     }
     .boldQuote{
         padding-top: 20px;
-        font-size: 30px;
+        font-size: 24px;
     }
     .heroTitle{
         font-size: 90px;
     }
     .heroSubtitle{
         font-size: 40px;
-    }
-    img:hover{
-        
     }
 }
