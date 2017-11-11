@@ -10,12 +10,14 @@ h1{
     padding-top: 100px;
     padding-bottom: 50px;
     font-weight: bold;
+    font-family: 'Josefin Slab', serif;
 }
 h2{
     color: white;
     text-align: center;
     font-size: 48px;
     padding: 50px 0px 50px 0;
+    font-family: 'Josefin Slab', serif;
 }
 h3{
     padding-top: 25px;
@@ -24,10 +26,12 @@ h3{
     color: white;
     padding-top: 50px;
     font-size: 40px;
+    font-family: 'Josefin Slab', serif;
 }
 .heroSubtitle{
     font-size: 20px;
     color: lightgrey;
+    font-family: 'Josefin Slab', serif;
 }
 .heroBG{
     background-image: url(images/hero.jpg);
@@ -42,14 +46,21 @@ h3{
 .imageDes{
     color: white;
 }
-.boldQuote{
+.boldQuote h4{
+    font-weight: none;
+    font-size: 14px;
+}
+.boldQuote p{
+    font-family: 'Josefin Slab', serif;
     font-weight: bold;
     font-size: 24px;
 }
+
 .newSection2{
     border-top: 15px solid brown;
     background-color: black;
     padding-top: 50px;
+    padding-bottom: 70px;
 }
 .newSection3{
     background-color: antiquewhite;
@@ -71,7 +82,6 @@ h3{
         font-size: 60px;  
     }
     .boldQuote{
-        padding-top: 20px;
         font-size: 24px;
     }
     .heroTitle{
